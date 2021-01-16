@@ -3,7 +3,7 @@ import random as rd
 import scipy.stats as sp
 
 
-#region Black Scholes
+#region Black Scholes ergfz
 
 def d1(S,K,T,R,sigma):return ((np.log(S/K)+(R+0.5 * pow(sigma,2))*T)/(sigma * pow(T,0.5)))
 
